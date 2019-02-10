@@ -12,7 +12,7 @@ let message = "Hello！"
 
 let rate = 5
 
-voice.speak('Hello!',rate)
+voice.speak(message,rate)
 
 
 
