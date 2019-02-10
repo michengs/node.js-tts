@@ -4,9 +4,15 @@
 # 用法
 将文件解压放入 proxy/node_modules里面注意重命名为:voice
 
+rate 为语速，-10 ~ 10，-10最慢，10最快
+
 const voice = require('voice')
 
-voice.speak('Hello!')
+let message = "Hello！"
+
+let rate = 5
+
+voice.speak('Hello!',rate)
 
 
 
