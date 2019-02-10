@@ -2,7 +2,7 @@
 一个简单的文本到语音模组
 用于proxy TTS转换
 # 用法
-将文件解压放入 proxy/node_modules里面
+将文件解压放入 proxy/node_modules里面注意重命名为:voice
 
 const voice = require('voice')
 
